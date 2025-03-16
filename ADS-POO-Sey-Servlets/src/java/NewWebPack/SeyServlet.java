@@ -16,8 +16,8 @@ import jakarta.servlet.http.HttpServletResponse;
  *
  * @author edano
  */
-@WebServlet(name = "SeuNomeServlet", urlPatterns = {"/seu-nome.html"})
-public class SeuNomeServlet extends HttpServlet {
+@WebServlet(name = "SeyServlet", urlPatterns = {"/sey-forasteira.html"})
+public class SeyServlet extends HttpServlet {
 
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
@@ -36,7 +36,7 @@ public class SeuNomeServlet extends HttpServlet {
             out.println("<!DOCTYPE html>");
             out.println("<html>");
             out.println("<head>");
-            out.println("<title>Servlet SeuNomeServlet</title>");
+            out.println("<title>SeyServlet</title>");
             out.println("</head>");
             out.println("<body>");
             out.println("<h1>RA: '1290482322015'</h1>");
