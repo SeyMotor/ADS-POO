@@ -1,0 +1,4 @@
+<%@ page pageEncoding="UTF-8" %>
+<a href="${pageContext.request.contextPath}/index.jsp">Index</a> |
+<a href="${pageContext.request.contextPath}/juros-simples.jsp">Juros Simples</a> |
+<a href="${pageContext.request.contextPath}/juros-compostos.jsp">Juros Compostos</a>

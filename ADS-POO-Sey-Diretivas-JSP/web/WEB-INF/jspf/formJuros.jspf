@@ -1,0 +1,7 @@
+<%@ page pageEncoding="UTF-8" %>
+<form>
+    <input type="number" placeholder="Capital" name="nCapital"> +
+    <input type="number" placeholder="Taxa por mês(em %)" name="nTaxa"> +
+    <input type="number" placeholder="Tempo" name="nTempo">
+    <input type="submit" name="resultJuros"/>
+</form>
